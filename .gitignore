@@ -1,2 +1,5 @@
+#不忽略的
 !/mods/
 !/config/
+!/kubejs/
+#忽略的
