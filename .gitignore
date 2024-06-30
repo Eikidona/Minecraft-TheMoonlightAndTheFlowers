@@ -4,5 +4,5 @@
 !/config/
 !/kubejs/
 #忽略
-mods/*[中世纪音乐]*.jar
-mods/*[自然音效]*.jar
+mods/*zmedievalmusic*.jar
+mods/*AmbientSounds*.jar
