@@ -6,3 +6,4 @@
 #忽略
 mods/*zmedievalmusic*.jar
 mods/*AmbientSounds*.jar
+mods/.connector*
