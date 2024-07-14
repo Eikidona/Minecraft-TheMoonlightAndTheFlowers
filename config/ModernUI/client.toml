@@ -84,7 +84,7 @@
 #General Config
 [general]
 	#Play a sound effect when the game is loaded.
-	ding = true
+	ding = false
 	#Press 'C' key (by default) to zoom 4x, the same as OptiFine's.
 	#This is auto disabled when OptiFine is installed.
 	zoom = true

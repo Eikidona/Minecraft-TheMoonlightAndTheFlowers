@@ -1,7 +1,7 @@
 {
   "general": {
     "engines": 0,
-    "volume": 1,
+    "volume": 0.5017793774604797,
     "useSoundMasterSource": false,
     "scanStepAmount": 100,
     "playSoundWithOffset": true
@@ -20,21 +20,29 @@
     "void": 1
   },
   "regions": {
-    "dark": {
+    "abyssalcraft_dark": {
       "overall": 1,
       "suspense.suspense": 1
     },
-    "unknown": {
+    "end_unknown": {
       "overall": 1,
       "suspense.suspense": 1
     },
-    "wind": {
+    "galacticraft_planets_wind": {
       "overall": 1,
       "wind.light-wind": 1
     },
-    "suspense": {
+    "nether_suspense": {
       "overall": 1,
       "nether": 1
+    },
+    "twilightforest_unknown": {
+      "overall": 1,
+      "suspense.suspense": 1
+    },
+    "void_dark": {
+      "overall": 1,
+      "suspense.suspense": 1
     },
     "beach": {
       "overall": 1,
@@ -196,9 +204,9 @@
       "cricket_day": 1,
       "cricket_night": 1
     },
-    "cave": 1,
-    "weather": 1,
-    "wind": 1
+    "cave": 0.5014577507972717,
+    "weather": 0.49854227900505066,
+    "wind": 0.495626837015152
   },
   "fade-volume": 0.005,
   "fade-pitch": 0.005,

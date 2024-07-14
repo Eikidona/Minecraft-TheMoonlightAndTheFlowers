@@ -19,7 +19,7 @@
 		fpsDisplayGravity = "LEFT"
 		#Toggle FPS Display shadow
 		#In case sometimes you can't see the text
-		fpsDisplayShadow = true
+		fpsDisplayShadow = false
 		#Configure FPS Display margin
 		#Give some space between corner and text
 		#Range: 0 ~ 48

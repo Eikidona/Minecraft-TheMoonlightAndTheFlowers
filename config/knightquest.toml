@@ -1,0 +1,21 @@
+
+["Config file for Knight Quest"]
+	#
+	#Eld Knight entity configuration
+	"Poison passive attack" = true
+	#Range: 0 ~ 6
+	"Number of Eld Bombs generated" = 3
+	#Range: 0.0 ~ 20.0
+	"Quantity of healing each 4 seconds" = 3.0
+	#
+	#Drop chance configuration
+	#Range: 0.0 ~ 1.0
+	"Drop chance for small essence" = 0.15
+	#Range: 0.0 ~ 1.0
+	"Drop chance for ratman eye" = 0.4
+	#Range: 0.0 ~ 1.0
+	"Drop chance for lizzy scale" = 0.3
+	#
+	#Range: 0.0 ~ 25.0
+	"Ghosty invulnerability radius" = 7.0
+

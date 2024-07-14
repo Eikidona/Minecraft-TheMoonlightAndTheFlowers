@@ -1,4 +1,5 @@
-// // ServerEvents.recipes(event => {
+
+// ServerEvents.recipes(event => {
 // //     LoquatPlacements.register('pack:loquat', new LoquatTreeNodePlacer('pack:loquat', ctx => {
 // //         // add monster rooms 
 // //         //添加怪物房间

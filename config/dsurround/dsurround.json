@@ -7,7 +7,7 @@
     "registerCommands": true
   },
   "soundSystem": {
-    "streamingChannels": 12,
+    "streamingChannels": 8,
     "cullInterval": 20,
     "enableSoundPruning": true
   },
@@ -21,7 +21,7 @@
     "reverbRayTraceDistance": 256
   },
   "soundOptions": {
-    "ambientVolumeScaling": 100,
+    "ambientVolumeScaling": 50,
     "replaceThunderSounds": true,
     "allowScarySounds": true,
     "playBiomeMusicWhileCreative": true,
@@ -55,7 +55,7 @@
   },
   "particleTweaks": {
     "suppressPlayerParticles": true,
-    "suppressProjectileParticleTrails": false
+    "suppressProjectileParticleTrails": true
   },
   "compassAndClockOptions": {
     "enableClock": true,
