@@ -4,6 +4,10 @@
 !/mods/
 !/config/
 !/kubejs/
+!/options.txt
+!/README.md
+!/TODO.md
+!/.gitignore
 #忽略
 mods/*zmedievalmusic*.jar
 mods/*AmbientSounds*.jar
