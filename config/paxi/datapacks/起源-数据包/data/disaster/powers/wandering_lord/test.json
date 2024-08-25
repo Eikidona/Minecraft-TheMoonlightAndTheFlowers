@@ -1,0 +1,153 @@
+/summon recruits:recruit -895.56 74.00 22.61 {CanUpdate: 1b, Hunger: 45.516735f, ShouldHoldPos: 0b, LeftHanded: 0b, AbsorptionAmount: 0.0f, Moral: 49.0f, Invulnerable: 0b, Fleeing: 0b, ForgeCaps: {
+        "curios:inventory": {Curios: []
+        },
+        "cataclysm:tentacle_cap": {hasTentacle: 0b
+        },
+        "cataclysm:charge_cap": {isCharge: 0b, dz: 0.0f, dx: 0.0f, KnockbackSpeed: 0.0f, ChargeTime: 0, timer: 0, ChargeDamage: 0.0f
+        },
+        "cataclysm:hook_cap": {hasHook: 0b
+        },
+        "apoli:powers": {Powers: []
+        },
+        "consecration:undying": {smite: 0
+        },
+        "iceandfire:entity_data": {chainedData: {}, miscData: {lungeTicks: 0, loveTicks: 0, hasDismounted: 0b
+            }, chickenData: {timeUntilNextEgg: -1
+            }, sirenData: {charmedById: -1, charmTime: 0, isCharmed: 0b
+            }, frozenData: {isFrozen: 0b, frozenTicks: 0
+            }
+        }
+    }, ArmorDropChances: [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ], HandDropChances: [
+        0.085f,
+        0.085f
+    ], brewery.immunity: 3, CustomName: '{
+        "text": "侍从"
+    }', ShouldBlock: 0b, BalmData: {}, ArmorItems: [
+        {},
+        {},
+        {id: "magistuarmory:halfarmor_chestplate", tag: {Damage: 0
+            }, Count: 1b
+        },
+        {id: "magistuarmory:barbute", tag: {Damage: 0
+            }, Count: 1b
+        }
+    ], MaxFallDistance: 1, Cost: 0, Tags: [
+        "disaster:wandering_lord/loyal_servant"
+    ], BeforeItemSlot: -1, AggroState: 0, Color: 0, ForgeData: {}, Variant: 17, Motion: [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ], Biome: 0, CanPickUpLoot: 1b, mountTimer: 0, Fire: -1s, PersistenceRequired: 1b, despawnTimer: -1, DeathTime: 0s, Group: 1, OnGround: 1b, Xp: 0, HoldPosY: 73, ShouldFollow: 0b, HoldPosX: -896, Attributes: [
+        {Name: "minecraft:generic.armor_toughness", Base: 0.0d
+        },
+        {Name: "forge:entity_reach", Base: 0.0d
+        },
+        {Name: "minecraft:generic.attack_speed", Base: 4.0d
+        },
+        {Name: "minecraft:generic.movement_speed", Modifiers: [
+                {Amount: 0.06422874528506105d, UUID: [I; -1981094410,
+                        -1835121192,
+                        -1111401116,
+                        -176761564
+                    ], Name: "speed_bonus", Operation: 1
+                },
+                {Amount: 0.05679752296538433d, UUID: [I; 1148353544,
+                        1417757939,
+                        -1514499351,
+                        -316557945
+                    ], Name: "speed_bonus", Operation: 1
+                }
+            ], Base: 0.3d
+        },
+        {Name: "reach-entity-attributes:reach", Base: 0.0d
+        },
+        {Name: "minecraft:generic.attack_damage", Modifiers: [
+                {Amount: 0.07131311217683556d, UUID: [I; -1531357561,
+                        -1095350307,
+                        -1151452093,
+                        -1533793674
+                    ], Name: "attack_bonus", Operation: 1
+                },
+                {Amount: 0.38322743875777127d, UUID: [I; 195824899,
+                        1220756221,
+                        -1807243736,
+                        944417165
+                    ], Name: "attack_bonus", Operation: 1
+                }
+            ], Base: 0.5d
+        },
+        {Name: "additionalentityattributes:lung_capacity", Base: 0.0d
+        },
+        {Name: "minecraft:generic.max_health", Modifiers: [
+                {Amount: 0.20268419816363265d, UUID: [I; -652984411,
+                        -356892131,
+                        -1214656861,
+                        -1073668144
+                    ], Name: "heath_bonus", Operation: 1
+                },
+                {Amount: 0.4176862397502746d, UUID: [I; 1432536921,
+                        -344702857,
+                        -2038881231,
+                        -2025939541
+                    ], Name: "heath_bonus", Operation: 1
+                }
+            ], Base: 20.0d
+        },
+        {Name: "minecraft:generic.knockback_resistance", Modifiers: [
+                {Amount: 0.07550495252522761d, UUID: [I; -1520747229,
+                        1550337989,
+                        -2046244870,
+                        -1424607095
+                    ], Name: "knockback_bonus", Operation: 1
+                },
+                {Amount: 0.03781411330268806d, UUID: [I; -1378370201,
+                        38356273,
+                        -1943684177,
+                        743262464
+                    ], Name: "knockback_bonus", Operation: 1
+                }
+            ], Base: 0.1d
+        },
+        {Name: "forge:step_height_addition", Base: 0.0d
+        },
+        {Name: "forge:entity_gravity", Base: 0.08d
+        },
+        {Name: "minecraft:generic.armor", Base: 0.0d
+        },
+        {Name: "obscure_api:regeneration", Base: 0.0d
+        }
+    ], isFollowing: 0b, Brain: {memories: {}
+    }, Level: 1, HurtByTimestamp: 0, Rotation: [
+        204.17426f,
+        0.0f
+    ], Items: [
+        {Slot: 0b, id: "magistuarmory:barbute", tag: {Damage: 0
+            }, Count: 1b
+        },
+        {Slot: 1b, id: "magistuarmory:halfarmor_chestplate", tag: {Damage: 0
+            }, Count: 1b
+        },
+        {Slot: 4b, id: "magistuarmory:wood_target", tag: {Damage: 0
+            }, Count: 1b
+        },
+        {Slot: 5b, id: "minecraft:iron_sword", tag: {Damage: 0
+            }, Count: 1b
+        }
+    ], ShouldMount: 0b, brewery.drunkenness: 0, Kills: 0, upkeepTimer: 2570, CitadelData: {}, OwnerUUID: [I; 2124700421,
+        1612270772,
+        -1299703905,
+        -1242504215
+    ], ShouldProtect: 0b, Air: 300s, Listen: 1b, HandItems: [
+        {id: "minecraft:iron_sword", tag: {Damage: 0
+            }, Count: 1b
+        },
+        {id: "magistuarmory:wood_target", tag: {Damage: 0
+            }, Count: 1b
+        }
+    ], HoldPosZ: 21, isOwned: 1b, FollowState: 0, FallDistance: 0.0f, FallFlying: 0b, HurtTime: 0s, Health: 20.0f, PortalCooldown: 0
+}

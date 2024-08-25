@@ -11,11 +11,6 @@
   "create:goggles": null,
   "create:hide_boiler_tanks": null,
   "create:placard": null,
-  "dynamictrees:branch": null,
-  "dynamictrees:fruit": null,
-  "dynamictrees:pod": null,
-  "dynamictrees:rooty": null,
-  "dynamictrees:rooty_water": null,
   "jade:block_face": null,
   "jade:distance": null,
   "jade:mod_name": null,
@@ -64,6 +59,5 @@
   "minecraft:zombie_villager": null,
   "supplementaries:hat_stand": null,
   "supplementaries:present": null,
-  "supplementaries:safe": null,
-  "waystones:waystone": null
+  "supplementaries:safe": null
 }

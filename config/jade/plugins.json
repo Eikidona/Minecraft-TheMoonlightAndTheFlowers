@@ -64,13 +64,6 @@
     "registry_name": "OFF",
     "mod_name": true
   },
-  "dynamictrees": {
-    "rooty_water": true,
-    "pod": true,
-    "fruit": true,
-    "rooty": true,
-    "branch": true
-  },
   "create": {
     "filter": true,
     "backtank_capacity": true,
@@ -86,8 +79,5 @@
     "adventure": true,
     "ench": true,
     "spawner": true
-  },
-  "waystones": {
-    "waystone": true
   }
 }

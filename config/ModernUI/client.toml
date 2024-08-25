@@ -41,9 +41,9 @@
 #Tooltip Config
 [tooltip]
 	#Whether to enable Modern UI enhanced tooltip, or back to vanilla default.
-	enable = true
+	enable = false
 	#Whether to use rounded tooltip shapes, or to use vanilla style.
-	roundedShape = false
+	roundedShape = true
 	#True to center the tooltip title if rendering an item's tooltip.
 	#Following lines are not affected by this option.
 	centerTitle = true
@@ -84,7 +84,7 @@
 #General Config
 [general]
 	#Play a sound effect when the game is loaded.
-	ding = false
+	ding = true
 	#Press 'C' key (by default) to zoom 4x, the same as OptiFine's.
 	#This is auto disabled when OptiFine is installed.
 	zoom = true

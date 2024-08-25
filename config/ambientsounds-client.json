@@ -1,7 +1,7 @@
 {
   "general": {
     "engines": 0,
-    "volume": 0.5017793774604797,
+    "volume": 1,
     "useSoundMasterSource": false,
     "scanStepAmount": 100,
     "playSoundWithOffset": true
@@ -200,13 +200,15 @@
         "bird_night": 1
       },
       "cicadas": 1,
-      "cricket": 1,
-      "cricket_day": 1,
-      "cricket_night": 1
+      "cricket": {
+        "cricket": 1,
+        "cricket_day": 1,
+        "cricket_night": 1
+      }
     },
-    "cave": 0.5014577507972717,
-    "weather": 0.49854227900505066,
-    "wind": 0.495626837015152
+    "cave": 1,
+    "weather": 1,
+    "wind": 1
   },
   "fade-volume": 0.005,
   "fade-pitch": 0.005,

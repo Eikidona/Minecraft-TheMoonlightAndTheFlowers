@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "order": 0,
+  "enabled": true,
+  "origins": [
+    "disaster:zombie",
+    "disaster:supermorph",
+    "disaster:wandering_lord"
+  ],
+  "allow_random": true,
+  "allow_random_unchoosable": false,
+  "hidden": false,
+  "name": "layer.origins.origin.name",
+  "missing_name": "origins.origin_layers.origins.origin.missing_name",
+  "missing_description": "origins.origin_layers.origins.origin.missing_description",
+  "loading_priority": 999
+}

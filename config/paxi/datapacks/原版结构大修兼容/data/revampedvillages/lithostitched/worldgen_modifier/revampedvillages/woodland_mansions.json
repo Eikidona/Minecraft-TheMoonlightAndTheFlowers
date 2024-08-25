@@ -1,0 +1,10 @@
+{
+    "type": "lithostitched:add_structure_set_entries",
+    "structure_set": "minecraft:woodland_mansions",
+    "entries": [
+        {
+            "structure": "revampedvillages:mansion",
+            "weight": 1
+        }
+    ]
+}

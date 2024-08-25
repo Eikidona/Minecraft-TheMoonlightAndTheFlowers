@@ -5,6 +5,10 @@
 	## General settings.
 	###########################################################################################################
 	[IDAS.General]
+		# Whether or not the vanilla Desert Pyramid should be disabled.
+		# Default: true
+		#
+		"Disable Vanilla Desert Pyramid" = true
 		# Whether or not Ice and Fire structures should be disabled.
 		# Default: true
 		#

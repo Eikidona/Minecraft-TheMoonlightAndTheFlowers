@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:rotten_flesh",
+        {
+            "id": "vinery:rotten_cherry",
+            "required": false
+        },
+        {
+            "id": "grimoireofgaia:rotten_heart",
+            "required": false
+        }
+    ]
+}
