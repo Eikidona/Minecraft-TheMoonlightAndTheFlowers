@@ -13,7 +13,7 @@ CurseForge: https://www.curseforge.com/minecraft/mc-mods/expanded-ecosphere
 	"showBigUpdates": true,
 	// Selects the background block in the config screen. Only makes sense in-game.
 	"backGroundBlock": {
-		"Name": "minecraft:calcite"
+  		"Name": "minecraft:calcite"
 	},
 	/* Type DEFAULT or COMPATIBLE, for changing modes.
 	   COMPATIBLE allows compat with Terralith and disabling biomes in banned_biomes.json5,

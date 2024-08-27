@@ -2,7 +2,7 @@
 [origins]
 
 	[origins."origins:enderian"]
-		enabled = true
+		enabled = false
 		"origins:throw_ender_pearl" = true
 		"origins:water_vulnerability" = true
 		"origins:pumpkin_hate" = true
@@ -11,17 +11,17 @@
 		"origins:damage_from_potions" = true
 
 	[origins."origins:human"]
-		enabled = true
+		enabled = false
 
 	[origins."disaster:supermorph"]
-		enabled = true
+		enabled = false
 		"origins:fire_immunity" = true
 		"origins:elytra" = true
 		"origins:throw_ender_pearl" = true
 		"origins:fresh_air" = true
 
 	[origins."origins:feline"]
-		enabled = true
+		enabled = false
 		"origins:fall_immunity" = true
 		"origins:sprint_jump" = true
 		"origins:velvet_paws" = true
@@ -31,7 +31,7 @@
 		"origins:cat_vision" = true
 
 	[origins."origins:elytrian"]
-		enabled = true
+		enabled = false
 		"origins:elytra" = true
 		"origins:launch_into_air" = true
 		"origins:aerial_combatant" = true
@@ -40,7 +40,7 @@
 		"origins:more_kinetic_damage" = true
 
 	[origins."origins:shulk"]
-		enabled = true
+		enabled = false
 		"origins:shulker_inventory" = true
 		"origins:natural_armor" = true
 		"origins:strong_arms" = true
@@ -49,7 +49,7 @@
 		"origins:more_exhaustion" = true
 
 	[origins."origins:merling"]
-		enabled = true
+		enabled = false
 		"origins:water_breathing" = true
 		"origins:water_vision" = true
 		"origins:aqua_affinity" = true
@@ -60,7 +60,7 @@
 		"origins:air_from_potions" = true
 
 	[origins."origins:phantom"]
-		enabled = true
+		enabled = false
 		"origins:phantomize" = true
 		"origins:translucent" = true
 		"origins:phasing" = true
@@ -71,7 +71,7 @@
 		"origins:phantomize_overlay" = true
 
 	[origins."origins:arachnid"]
-		enabled = true
+		enabled = false
 		"origins:climbing" = true
 		"origins:master_of_webs" = true
 		"origins:carnivore" = true
@@ -79,7 +79,7 @@
 		"origins:arthropod" = true
 
 	[origins."origins:blazeborn"]
-		enabled = true
+		enabled = false
 		"origins:fire_immunity" = true
 		"origins:nether_spawn" = true
 		"origins:burning_wrath" = true
@@ -90,7 +90,7 @@
 		"origins:damage_from_potions" = true
 
 	[origins."origins:avian"]
-		enabled = true
+		enabled = false
 		"origins:slow_falling" = true
 		"origins:fresh_air" = true
 		"origins:like_air" = true
@@ -105,5 +105,5 @@
 		"disaster:wandering_lord/impera_brigade_guard" = true
 
 	[origins."disaster:zombie"]
-		enabled = true
+		enabled = false
 
