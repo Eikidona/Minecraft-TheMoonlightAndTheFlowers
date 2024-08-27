@@ -1,7 +1,7 @@
 // priority: 1000
 
 // 常用的实用工具
-const SoyoUtil = {
+const Utils = {
     /**
      * 在指定的半径内获取符合条件的实体
      * @param {Internal.ServerLevel} pLevel 维度

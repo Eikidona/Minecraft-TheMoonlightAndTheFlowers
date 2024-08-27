@@ -9,7 +9,7 @@ OriginWarpper.registerPower(
         const { entity: player, entity: { block }, source, source: { actual }, level, server } = event;
         if (actual == null) return;
         // 选取范围内的实体
-        const entityArray = SoyoUtil.getEntitiesWithinRange(
+        const entityArray = Utils.getEntitiesWithinRange(
             level, // 维度
             block, // 原点
             16, // 半径
@@ -20,7 +20,7 @@ OriginWarpper.registerPower(
             });
         if (entityArray.length === 0) return;
         // 按距离排序 
-        const sortEntities = SoyoUtil.entitySortByDistance(block, entityArray);
+        const sortEntities = Utils.entitySortByDistance(block, entityArray);
         /**@type {Internal.LivingEntity} - 最近的实体 */
         const nearestEntity = sortEntities.nearest;
         /**@type {number} - 伤害量 */

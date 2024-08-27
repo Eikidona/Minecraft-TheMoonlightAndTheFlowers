@@ -5,7 +5,7 @@ OriginWarpper.registerPower(
     event => {
         const { entity, target, hand, level, server } = event;
         if (hand !== 'main_hand') return;
-        const hasPower = OriginUtils.hasPower(entity);
+        const hasPower = OriginUtils.hasPower(entity, 'disaster:wandering_lord/loyal_servant');
         const inTag = target.entityType.tags.anyMatch(t => t.location() === 'recruits:recruit');
         const hasTag = target.tags.contains('disaster:wandering_lord/loyal_servant');
         if (!hasPower || !inTag || hasTag) return;

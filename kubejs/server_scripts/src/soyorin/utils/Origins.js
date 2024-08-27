@@ -1,5 +1,4 @@
 // priority: 1000
-
 const OriginUtils = {
     /**
      * 获得起源实例Origin origin

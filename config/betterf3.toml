@@ -15,6 +15,15 @@
 	always_show_tps = false
 
 [[modules_left]]
+	name = "miscleft"
+	name_color = 16645526
+	value_color = 5636095
+	enabled = true
+
+	[modules_left.lines]
+		misc_left = true
+
+[[modules_left]]
 	name = "location"
 	name_color = 43520
 	value_color = 5636095
@@ -33,6 +42,18 @@
 		day_ticks = true
 		days_played = true
 		slime_chunk = true
+
+[[modules_left]]
+	name = "sound"
+	name_color = 16755200
+	value_color = 5636095
+	maximum_color = 43690
+	enabled = true
+
+	[modules_left.lines]
+		sounds = true
+		ambient_sounds = true
+		mood = true
 
 [[modules_left]]
 	name = "chunks"
@@ -55,15 +76,6 @@
 		forceloaded_chunks = true
 		spawn_chunks = true
 		chunk_file = true
-
-[[modules_left]]
-	name = "miscleft"
-	name_color = 16645526
-	value_color = 5636095
-	enabled = true
-
-	[modules_left.lines]
-		misc_left = true
 
 [[modules_left]]
 	name = "coords"
@@ -140,18 +152,6 @@
 		water_creature = true
 		water_ambient = true
 		misc = true
-
-[[modules_left]]
-	name = "sound"
-	name_color = 16755200
-	value_color = 5636095
-	maximum_color = 43690
-	enabled = true
-
-	[modules_left.lines]
-		sounds = true
-		ambient_sounds = true
-		mood = true
 
 [[modules_left]]
 	name = "empty"

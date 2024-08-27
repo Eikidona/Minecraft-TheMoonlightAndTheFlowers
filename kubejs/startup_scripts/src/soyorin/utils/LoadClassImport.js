@@ -8,9 +8,9 @@
  * Java接口实现类
  */
 /**@type {Internal.Optional} - 可选项类*/
-const $Optional = global.$Optional;
+const $Optional = const .$Optional;
 /**@type {Internal.ArrayList} - 数组列表类*/
-const $ArrayList = global.$ArrayList;
+const $ArrayList = const .$ArrayList;
 
 /**
  * Minecraft原版类
@@ -19,22 +19,22 @@ const $ArrayList = global.$ArrayList;
  * ComponentContents接口实现类
  */
 /**@type {Internal.TranslatableContents} - 翻译内容类*/
-const $TranslatableContents = global.$TranslatableContents; // 翻译内容类
+const $TranslatableContents = const .$TranslatableContents; // 翻译内容类
 /**@type {Internal.LiteralContents} - 文本内容类*/
-const $LiteralContents = global.$LiteralContents; // 文本内容类
+const $LiteralContents = const .$LiteralContents; // 文本内容类
 /**@type {Internal.KeybindContents} - 按键绑定内容类*/
-const $KeybindContents = global.$KeybindContents; // 键绑定内容类
+const $KeybindContents = const .$KeybindContents; // 键绑定内容类
 /**@type {Internal.NbtContents} - NBT内容类*/
-const $NbtContents = global.$NbtContents; // NBT内容类
+const $NbtContents = const .$NbtContents; // NBT内容类
 /**@type {Internal.ScoreContents} - 分数内容类*/
-const $ScoreContents = global.$ScoreContents; // 分数内容类
+const $ScoreContents = const .$ScoreContents; // 分数内容类
 /**@type {Internal.SelectorContents} - 实体选择器内容类*/
-const $SelectorContents = global.$SelectorContents; // 目标选择器内容类
+const $SelectorContents = const .$SelectorContents; // 目标选择器内容类
 /**
  * 其他
  */
 /**@type {Internal.UUIDUtil} - UUID工具*/
-const $UuidUtil = global.$UuidUtil;
+const $UuidUtil = const .$UuidUtil;
 
 /**
  * Mod类
@@ -43,26 +43,26 @@ const $UuidUtil = global.$UuidUtil;
  * 饰品栏
  */
 /**@type {Internal.CuriosApi} - 饰品栏接口*/
-const $CuriosApi = global.$CuriosApi;
+const $CuriosApi = const .$CuriosApi;
 /**
  * 均衡饮食
  */
 /**@type {Internal.PlayerDietTracker} - 均衡饮食接口*/
-const $PlayerDietTracker = global.$PlayerDietTracker;
+const $PlayerDietTracker = const .$PlayerDietTracker;
 /**
  * 起源
  */
 /**@type {Internal.IOriginContainer} - 起源容器接口*/
-const $IOriginContainer = global.$IOriginContainer;
+const $IOriginContainer = const .$IOriginContainer;
 /**@type {Internal.OriginsAPI} - 起源API接口*/
-const $OriginsAPI = global.$OriginsAPI;
+const $OriginsAPI = const .$OriginsAPI;
 /**@type {Internal.OriginsAPI} - 起源接口*/
-const $Origin = global.$Origin;
+const $Origin = const .$Origin;
 /**@type {Internal.IPowerContainer} - 起源力量容器接口*/
-const $IPowerContainer = global.$IPowerContainer;
+const $IPowerContainer = const .$IPowerContainer;
 /**
  * 神化
  */
 /**@type {Internal.AffixHelper} - 神化接口*/
-const $AffixHelper = global.$AffixHelper;
+const $AffixHelper = const .$AffixHelper;
 
