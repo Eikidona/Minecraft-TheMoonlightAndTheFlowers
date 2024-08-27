@@ -8,7 +8,7 @@ const MessageModify = {
     // 初始化 - 启动一个Forge事件
     init: function () {
         ForgeEvents.onEvent('net.minecraftforge.client.event.ClientChatReceivedEvent', event => {
-            const .MessageModify.listenEvent(event);
+            this.listenEvent(event);
     });
     },
 /**
@@ -29,7 +29,7 @@ listenEvent: function (event) {
         // console.log(`消息args[0]: ${args[0]}`);
     }
     // if (event.isSystem()) return;
-    const newMessage = const .MessageModify.modifyRawText(event); // 获取新消息
+    const newMessage = this.modifyRawText(event); // 获取新消息
     event.setMessage(newMessage); // 设置消息
 },
 // 注册表
@@ -41,8 +41,8 @@ registry: { },
 * @param {function(Internal.ClientChatReceivedEvent): Internal.MutableComponent_} pFunction  - 如何处理满足条件的字符串
 */
 register: function (pType, pPredicate, pFunction) {
-    if (!const .MessageModify.registry[pType]) {
-        const .MessageModify.registry[pType] = {
+    if (!this.registry[pType]) {
+        this.registry[pType] = {
             'predicate': pPredicate,
             'consumer': pFunction
         }
@@ -55,7 +55,7 @@ register: function (pType, pPredicate, pFunction) {
  */
 modifyRawText: function (event) {
     /** @type {Internal.MutableComponent} */
-    const registry = const .MessageModify.registry;
+    const registry = this.registry;
     const registryKeys = Object.keys(registry);
 
     for (const type of registryKeys) {

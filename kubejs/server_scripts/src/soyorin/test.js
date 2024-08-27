@@ -4,7 +4,7 @@ EntityJSEvents.addGoalSelectors('minecraft:zombie', event => {
     /**@type {Special.SoundEvent} - 啜饮*/
     const Sound = 'entity.generic.drink';
     // 剧毒药水II
-    event.useItem(1, ItemStack, Sound, canUse)
+    event.useItem(4, ItemStack, Sound, canUse);
     function canUse() {
         if (event.getEntity().getMainHandItem().equals(ItemStack, true) || event.getEntity().getOffHandItem().equals(ItemStack, true)) {
             return true;
@@ -28,7 +28,8 @@ EntityJSEvents.addGoals("minecraft:husk", event => {
     event.hurtByTarget(1, [Cow], true, [Cow])
     event.nearestAttackableTarget(2, Cow, 5, false, false, entity => {
         return entity.age < 500
-    })
+    });
+
     // const $BreedGoal = Java.loadClass('net.minecraft.world.entity.ai.goal.BreedGoal')
     // /**
     //  *
@@ -49,4 +50,16 @@ EntityJSEvents.addGoals("minecraft:husk", event => {
     //     const { goal, entity } = context
     //     return goal.getClass() == $PanicGoal
     // })
-})
+});
+
+PlayerEvents.chat(event => {
+    const { server, level, player, message } = event;
+    console.log(`消息: ${message}`);
+    if (message !== 'bossbar') return;
+    if (server.getCustomBossEvents().get('soyorin:bossbar')) {
+        player.tell('已经存在customBossbar');
+        server.getCustomBossEvents().remove(server.getCustomBossEvents().get('soyorin:bossbar'));
+    } else {
+        server.getCustomBossEvents().create('soyorin:bossbar', Component.of('测试')).setPlayers(server.getPlayers());
+    }
+});
