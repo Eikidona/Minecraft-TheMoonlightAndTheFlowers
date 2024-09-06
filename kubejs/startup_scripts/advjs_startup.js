@@ -6,7 +6,3 @@
 //         .match(advancement => advancement.getId() == "minecraft:story/smelt_iron")
 //         .match(playerName => playerName == "Dev")
 // })
-
-/**
- * 一个单纯的adv JS自带脚本
- */

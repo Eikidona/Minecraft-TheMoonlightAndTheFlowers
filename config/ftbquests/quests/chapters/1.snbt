@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1"
+	group: "43BDB51AA9DA6A70"
+	id: "5B7677427F41EB36"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:textures/gui/hanging_signs/oak.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/entity/villager/villager.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -1.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "1"
+}

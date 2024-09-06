@@ -3,9 +3,7 @@
   "order": 0,
   "enabled": true,
   "origins": [
-    "disaster:zombie",
-    "disaster:supermorph",
-    "disaster:wandering_lord"
+    
   ],
   "allow_random": true,
   "allow_random_unchoosable": false,

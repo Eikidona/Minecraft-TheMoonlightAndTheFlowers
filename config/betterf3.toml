@@ -15,6 +15,17 @@
 	always_show_tps = false
 
 [[modules_left]]
+	name = "server"
+	name_color = 11184810
+	value_color = 16777045
+	enabled = true
+
+	[modules_left.lines]
+		server_tick = true
+		packets_sent = true
+		packets_received = true
+
+[[modules_left]]
 	name = "miscleft"
 	name_color = 16645526
 	value_color = 5636095
@@ -90,17 +101,6 @@
 		block_coords = true
 		chunk_relative_coords = true
 		chunk_coords = true
-
-[[modules_left]]
-	name = "server"
-	name_color = 11184810
-	value_color = 16777045
-	enabled = true
-
-	[modules_left.lines]
-		server_tick = true
-		packets_sent = true
-		packets_received = true
 
 [[modules_left]]
 	name = "minecraft"
