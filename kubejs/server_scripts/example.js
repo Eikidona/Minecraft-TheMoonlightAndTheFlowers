@@ -4,3 +4,8 @@
 
 console.info('Hello, World! (Loaded server scripts)')
 
+ItemEvents.entityInteracted(event => {
+    
+})
+
+ServerEvents.loaded()
