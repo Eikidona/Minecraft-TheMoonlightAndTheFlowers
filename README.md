@@ -1,5 +1,5 @@
 # Minecraft - 月夕花朝
-> 制作更沉浸的Minecraft世界，更加完善合理有区域性的村民交易，更激烈的袭击，偏向真实的生存，更偏向神秘风格
+> 制作更沉浸的Minecraft世界，更加完善合理有区域性的村民交易，残酷的袭击，偏向真实的生存，更偏向神秘风格的文字
 
 [**To Do - 开发进度**](https://github.com/Eikidona/Minecraft-TheEraofDisaster/edit/main/TODO.md)
 
