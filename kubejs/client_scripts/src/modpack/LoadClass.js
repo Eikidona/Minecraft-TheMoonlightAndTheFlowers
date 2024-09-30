@@ -1,1 +1,0 @@
-const $ResourceKey = Java.loadClass('net.minecraft.resources.ResourceKey');

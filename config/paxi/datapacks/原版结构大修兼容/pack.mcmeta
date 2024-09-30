@@ -1,6 +1,0 @@
-{
-    "pack": {
-        "pack_format": 15,
-        "description": "用于兼容同样修改了原版结构的数据包"
-    }
-}
