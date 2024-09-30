@@ -298,7 +298,7 @@
 		#Enable comparing enchantments to find a replacement
 		"Enable Enchant Matching" = true
 		#Allow pulling items from one hotbar slot to another
-		"Check Hotbar" = false
+		"Check Hotbar" = true
 		"Unstackables Only" = false
 		#Any items you place in this list will be ignored by the restock feature
 		"Ignored Items" = ["botania:exchange_rod", "botania:dirt_rod", "botania:skydirt_rod", "botania:cobble_rod"]
