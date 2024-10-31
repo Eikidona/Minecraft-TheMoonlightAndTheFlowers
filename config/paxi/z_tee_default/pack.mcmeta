@@ -1,0 +1,12 @@
+{
+    "pack": {
+        "pack_format": 15,
+        "description": [
+            {
+                "translate": "pack.tectonic_expanded_ecosphere.description",
+                "color": "dark_green",
+                "font": "minecraft:default"
+            }
+        ]
+    }
+}

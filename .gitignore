@@ -12,3 +12,4 @@
 mods/*zmedievalmusic*.jar
 mods/*AmbientSounds*.jar
 mods/.connector*
+mods/*.jar.disabled

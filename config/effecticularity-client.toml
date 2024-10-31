@@ -1,0 +1,27 @@
+
+[visuals]
+	#waterEffects
+	clientBoolean = true
+	#Range: 0.0 ~ 5.0
+	splashThreshold = 0.3
+	#Range: 0 ~ 100
+	flowingWaterSplashingDensity = 50
+	cascades = true
+	#Range: 0.0 ~ 5.0
+	cascadeCloudDensity = 2.5
+	#Range: 0 ~ 5
+	cascadeMistDensity = 1
+	shouldFlowingWaterSpawnParticlesOnFirstTick = true
+	#Range: 0 ~ 10
+	lapisBlockUpdateParticleChance = 1
+	#Range: 0 ~ 10
+	rainRippleDensity = 5
+	glowingPlankton = true
+	underwaterOpenChestBubbles = true
+	#Range: 0.0 ~ 10.0
+	fireflyDensity = 1.0
+
+[mob_effects]
+	allayTwinkles = true
+	goldenAllays = true
+
